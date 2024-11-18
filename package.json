@@ -1,0 +1,67 @@
+{
+    "name": "tunedash",
+    "description": "A Phaser 3 TypeScript project template that demonstrates React communication and uses Vite for bundling.",
+    "version": "1.0.2",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phaserjs/template-react-ts.git"
+    },
+    "author": {
+        "name": "Logesh Rajappan",
+        "email": "logesh.r24@gmail.com"
+    },
+    "license": "MIT",
+    "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+    "keywords": [
+        "phaser",
+        "phaser3",
+        "react",
+        "vite",
+        "typescript"
+    ],
+    "scripts": {
+        "dev": "vite --config vite/config.dev.mjs --port 3000 --host 0.0.0.0",
+        "build": "vite build --config vite/config.prod.mjs"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@mui/icons-material": "^5.16.4",
+        "@mui/lab": "^5.0.0-alpha.172",
+        "@mui/material": "^5.16.4",
+        "@telegram-apps/sdk-react": "^2.0.9",
+        "@telegram-apps/telegram-ui": "^2.1.8",
+        "@twa-dev/sdk": "^7.10.1",
+        "axios": "^1.7.3",
+        "crypto-js": "^4.2.0",
+        "firebase": "^10.12.3",
+        "framer-motion": "^11.11.9",
+        "idb": "^8.0.0",
+        "lodash": "^4.17.21",
+        "phaser": "^3.80.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-firebase-hooks": "^5.1.1",
+        "react-router-dom": "^6.26.1",
+        "tone": "^15.0.4",
+        "use-indexeddb": "^2.0.2",
+        "webfontloader": "^1.6.28"
+    },
+    "devDependencies": {
+        "@types/crypto-js": "^4.2.2",
+        "@types/lodash": "^4.17.6",
+        "@types/node": "^22.8.6",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@types/webfontloader": "^1.6.38",
+        "@typescript-eslint/eslint-plugin": "^7.13.1",
+        "@typescript-eslint/parser": "^7.13.1",
+        "@vitejs/plugin-react": "^4.3.1",
+        "eslint": "^8.57.0",
+        "eslint-plugin-react-hooks": "^4.6.2",
+        "eslint-plugin-react-refresh": "^0.4.7",
+        "terser": "^5.28.1",
+        "typescript": "^5.2.2",
+        "vite": "^5.3.1"
+    }
+}
